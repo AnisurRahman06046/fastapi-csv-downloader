@@ -8,9 +8,11 @@ A simple FastAPI utility to generate downloadable CSV responses.
 pip install fastapi-csv-download
 ```
 
+## Usage
+
 ```
 from fastapi import FastAPI
-from fastapi_csv_download import generate_csv_response
+from fastapi_csv_downloader import generate_csv_response
 
 app = FastAPI()
 
